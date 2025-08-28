@@ -6,6 +6,9 @@ from pyflink.common.serialization import SimpleStringSchema
 from pyflink.datastream.window import TumblingProcessingTimeWindows
 from pyflink.common.time import Time
 from pyflink.datastream.functions import ProcessWindowFunction
+from pyflink.datastream.connectors.file_system import FileSink, OutputFileConfig, RollingPolicy
+from pyflink.common.serialization import SimpleStringEncoder
+
 from itertools import combinations
 # --- NOVOS IMPORTS ---
 import nltk
@@ -89,9 +92,22 @@ def process_er_streaming():
     windowed_stream = keyed_stream.window(TumblingProcessingTimeWindows.of(Time.seconds(15)))
     result_stream = windowed_stream.process(FindDuplicates())
     
-    result_stream.print()
-    print("Iniciando o job PyFlink...")
-    env.execute("Streaming Entity Resolution in Python")
+        # --- MUDANÇA AQUI ---
+    # 4. Salvar o resultado em arquivos de texto na pasta /app/output
+    output_path = "/app/output"
+    file_sink = FileSink.for_row_format(
+        base_path=output_path,
+        encoder=SimpleStringEncoder()
+    ).with_output_file_config(
+        OutputFileConfig.builder()
+        .with_part_prefix("matches")
+        .with_part_suffix(".txt")
+        .build()
+    ).build()
+
+    result_stream.sink_to(file_sink)
+
+    print("Iniciando o job PyFlink... Os resultados serão salvos na pasta /app/output do container taskmanager.")
 
 if __name__ == '__main__':
     process_er_streaming()
