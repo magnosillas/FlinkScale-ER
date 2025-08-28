@@ -1,42 +1,45 @@
-# flink_processor.py (com remoção de stopwords)
+# flink_processor.py (VERSÃO FINAL)
 import json
-from pyflink.datastream import StreamExecutionEnvironment
-from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer
-from pyflink.common.serialization import SimpleStringSchema
-from pyflink.datastream.window import TumblingProcessingTimeWindows
-from pyflink.common.time import Time
-from pyflink.datastream.functions import ProcessWindowFunction
-from pyflink.datastream.connectors.file_system import FileSink, OutputFileConfig, RollingPolicy
-from pyflink.common.serialization import SimpleStringEncoder
-
+import re
 from itertools import combinations
-# --- NOVOS IMPORTS ---
+
 import nltk
 from nltk.corpus import stopwords
-import re
+from pyflink.common.serialization import SimpleStringSchema, Encoder
+from pyflink.common.time import Time
+from pyflink.datastream import StreamExecutionEnvironment
+from pyflink.datastream.connectors.file_system import (FileSink,
+                                                      OutputFileConfig)
+from pyflink.datastream.connectors.kafka import FlinkKafkaConsumer
+from pyflink.datastream.functions import ProcessWindowFunction
+from pyflink.datastream.window import TumblingProcessingTimeWindows
 
 # --- CONFIGURAÇÕES ---
 KAFKA_BROKER = 'kafka:29092'
 KAFKA_TOPIC = 'entity_stream'
 # ---------------------
 
-# Carrega a lista de stopwords em português uma única vez
-nltk.data.path.append('/app/nltk_data') # Garante que o NLTK encontre os dados no container
+# Aponta para a pasta de dados da NLTK copiada pelo Dockerfile
+nltk.data.path.append('/app/nltk_data')
 STOP_WORDS = set(stopwords.words('portuguese'))
 
 def jaccard_similarity(set1, set2):
+    """Calcula a similaridade Jaccard entre dois conjuntos de tokens."""
     intersection = len(set1.intersection(set2))
     union = len(set1.union(set2))
     return intersection / union if union != 0 else 0
 
+# --- CORREÇÃO AQUI: A LÓGICA AGORA ESTÁ DENTRO DE UMA CLASSE ---
 class FindDuplicates(ProcessWindowFunction):
     def process(self, key, context, elements):
+        # Desduplica as entidades no bloco
         unique_entities = {item[1] for item in elements}
         entities = [json.loads(s) for s in unique_entities]
 
         if len(entities) < 2:
             return
 
+        # Compara cada par de entidades
         for entity1, entity2 in combinations(entities, 2):
             tokens1 = set(entity1.get('tokens', []))
             tokens2 = set(entity2.get('tokens', []))
@@ -65,21 +68,15 @@ def process_er_streaming():
 
     data_stream = env.add_source(kafka_consumer)
 
-    # --- LÓGICA DE TOKENIZAÇÃO ATUALIZADA ---
     def tokenize(json_string):
         try:
             entity = json.loads(json_string)
             full_text = " ".join([attr['value'] for attr in entity.get('attributes', [])])
-            
-            # 1. Deixa tudo minúsculo e remove pontuação
+
             clean_text = re.sub(r'[^\w\s]', '', full_text.lower())
-            
-            # 2. Quebra o texto em palavras
             words = clean_text.split()
-            
-            # 3. Remove as stopwords
             tokens = {word for word in words if word not in STOP_WORDS and len(word) > 1}
-            
+
             entity['tokens'] = list(tokens)
 
             for token in tokens:
@@ -90,14 +87,15 @@ def process_er_streaming():
     tokenized_stream = data_stream.flat_map(tokenize)
     keyed_stream = tokenized_stream.key_by(lambda x: x[0])
     windowed_stream = keyed_stream.window(TumblingProcessingTimeWindows.of(Time.seconds(15)))
+
+    # --- CORREÇÃO AQUI: Usamos a classe em vez da função ---
     result_stream = windowed_stream.process(FindDuplicates())
-    
-        # --- MUDANÇA AQUI ---
-    # 4. Salvar o resultado em arquivos de texto na pasta /app/output
+
+    # Salva os resultados em arquivos de texto
     output_path = "/app/output"
     file_sink = FileSink.for_row_format(
         base_path=output_path,
-        encoder=SimpleStringEncoder()
+        encoder=Encoder.simple_string_encoder()
     ).with_output_file_config(
         OutputFileConfig.builder()
         .with_part_prefix("matches")
@@ -107,7 +105,8 @@ def process_er_streaming():
 
     result_stream.sink_to(file_sink)
 
-    print("Iniciando o job PyFlink... Os resultados serão salvos na pasta /app/output do container taskmanager.")
+    print("Iniciando o job PyFlink...")
+    env.execute("Streaming Entity Resolution in Python")
 
 if __name__ == '__main__':
     process_er_streaming()

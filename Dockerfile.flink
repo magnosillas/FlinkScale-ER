@@ -18,3 +18,4 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 # --- ADIÇÃO AQUI ---
 # 5. Baixa os dados necessários da NLTK (incluindo a lista de stopwords)
 RUN python -m nltk.downloader stopwords
+RUN chown -R flink:flink /app
