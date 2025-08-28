@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/dbs/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="de" href="https://dbs.uni-leipzig.de/not-found" />
+<link rel="alternate" hreflang="en" href="https://dbs.uni-leipzig.de/not-found" />
+<link rel="canonical" href="https://dbs.uni-leipzig.de/not-found" />
+<link rel="shortlink" href="https://dbs.uni-leipzig.de/node/11368" />
+
+    <title>Not found | Database Group Leipzig</title>
+    <link rel="stylesheet" media="all" href="/files/css/css_59P1mqjwysWkOf0tF0yZmnKwf6zANjEOCBB9Ki8Mf-g.css?delta=0&amp;language=en&amp;theme=dbs&amp;include=eJxtTssOwyAM-yEyDt2hf1OlkG2RAqkaKGJfP9Tu2IslP2Q7ruYxYKTEQbO5OPhbdEWBoGnTTLlcapsgmEH5UCKomUGIty-_XdzrhjIvbRr-cvo-zieDf5WVLpzvoy_NBbCR6eh9Aufb1LXuBLvWskS2oAft3Y-DQcVZt0LJr2jkDqZm_sRH0liFfsvnVvc" />
+<link rel="stylesheet" media="all" href="/files/css/css_I2k1mJCu9DQF6jDAYpvLjqzEy5ziyHLHQGU8HQSpdRo.css?delta=1&amp;language=en&amp;theme=dbs&amp;include=eJxtTssOwyAM-yEyDt2hf1OlkG2RAqkaKGJfP9Tu2IslP2Q7ruYxYKTEQbO5OPhbdEWBoGnTTLlcapsgmEH5UCKomUGIty-_XdzrhjIvbRr-cvo-zieDf5WVLpzvoy_NBbCR6eh9Aufb1LXuBLvWskS2oAft3Y-DQcVZt0LJr2jkDqZm_sRH0liFfsvnVvc" />
+
+    
+  </head>
+  <body class="path-node-11368 path-file page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <!-- Start: Page Wrapper -->
+<div class="page-wrapper w3-col w3-clear w3-animate-opacity w3-text-theme ">
+
+  <!-- Start: Header -->
+  <header id="header" class="w3-col w3-clear w3-theme-l4 none " role="banner" aria-label="Site header">
+    <div id="header-inner" class="w3-container header-inner none">
+                  
+<nav role="navigation" aria-labelledby="block-dbs-account-menu-menu" id="block-dbs-account-menu">
+            
+  <h2 class="visually-hidden" id="block-dbs-account-menu-menu">User account menu</h2>
+  
+
+                          <ul  class="ul-parent ul-parent-account" role="menu">
+                          <li class="li-item li-item-account" role="none">
+        <a href="/index.php/user/login" class="w3-button li-link li-link-account" role="menuitem" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+<section id="block-dbs-branding" class="w3-block w3-block-wrapper block-system block-system-branding-block">
+  
+    
+    <a href="/index.php/" title="Home" rel="home" class="w3-left w3-padding-16 header-logo dbs-logo">
+    <img src="/themes/dbs/assets/images/logo-color.jpg" alt="DBS-Logo" />
+  </a>
+<div class="w3-left site-name-slogan">
+      <h1 class="site-name w3-show-block">
+      <a class="w3-xlarge w3-padding w3-show-inline-block" href="/index.php/" title="Home" rel="home">Database Group Leipzig</a>
+    </h1>
+        <h3 class="site-slogan w3-large w3-show-block">within the <a href="http://www.informatik.uni-leipzig.de/" target="_blank">department of computer science</a></h3>
+  </div>
+  <a href="https://scads.ai/" title="ScaDS.AI" class="w3-left w3-padding-16 header-logo scads-logo">
+    <img src="/themes/dbs/assets/images/scadsAI.png" alt="ScaDS-Logo" />
+  </a>
+  <a href="https://www.uni-leipzig.de/" title="University of Leipzig" class="w3-left w3-padding-16 header-logo uni-logo">
+    <img src="/themes/dbs/assets/images/uni_leipzig_logo_v2b.svg" alt="Logo of the University of Leipzig" />
+  </a>
+  </section>
+
+
+          </div>
+  </header>
+  <!-- End: Header -->
+
+    <!-- Start: Main Navigation - Horizontal -->
+  <div id="main-navigation-h" class="w3-col w3-clear main-navigation-wrapper w3-theme " role="navigation" aria-label="Main Navigation" >
+    <div id="main-navigation-inner-h" class="w3-row main-navigation-inner-h none">
+      <div class="mobile-nav w3-hide-large w3-button w3-block w3-right-align w3-large w3-theme ">
+        <i class="fa fa-bars"></i>
+      </div>
+      
+<nav role="navigation" aria-labelledby="block-dbs-main-menu-menu" id="block-dbs-main-menu">
+            
+  <h2 class="visually-hidden" id="block-dbs-main-menu-menu">Main navigation</h2>
+  
+
+                          <ul  class="ul-parent ul-parent-main" role="menu">
+                          <li class="li-item li-item-main" role="none">
+        <a href="/" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                      <li class="li-item li-item-main li-expanded li-parent" role="none">
+        <a href="/study" title="Informations for students" class="w3-button li-link li-link-main" role="menuitem">Study</a>
+                  <div class="div-expanded">
+                          <a href="javascript:void(0)" class="w3-button toggle-child" aria-haspopup="true">
+                <span class="fa fa-chevron-down"></span>
+              </a>
+                                                        <ul  class="ul-child ul-child-main" role="menu">
+                          <li class="li-item li-item-main li-expanded" role="none">
+        <a href="/study/exams" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="study/exams">Exams</a>
+                  <div class="div-expanded">
+                          <a href="javascript:void(0)" class="w3-button toggle-child" aria-haspopup="true">
+                <span class="fa fa-chevron-right"></span>
+              </a>
+                                                        <ul  class="ul-child ul-child-main" role="menu">
+                          <li class="li-item li-item-main" role="none">
+        <a href="/study/exams/general-information" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/26">Hinweise zu Klausuren</a>
+              </li>
+        </ul>
+  
+                      </div>
+              </li>
+                      <li class="li-item li-item-main li-expanded" role="none">
+        <a href="/study/courses" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="study/courses">Courses</a>
+                  <div class="div-expanded">
+                          <a href="javascript:void(0)" class="w3-button toggle-child" aria-haspopup="true">
+                <span class="fa fa-chevron-right"></span>
+              </a>
+                                                        <ul  class="ul-child ul-child-main" role="menu">
+                          <li class="li-item li-item-main" role="none">
+        <a href="/study/courses/current" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/11743">Current</a>
+              </li>
+        </ul>
+  
+                      </div>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/modules" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="study/modules">Modules</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/lots" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/53">LOTS-Training</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/theses" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/9951">Abschlussarbeiten</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/mds" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/10878">Masterstudiengang Data Science</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/oberseminare" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/11562">Oberseminare</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/problemseminare" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/11563">Problemseminare</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/study/top" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/10945">Top-Studierende</a>
+              </li>
+        </ul>
+  
+                      </div>
+              </li>
+                      <li class="li-item li-item-main li-expanded li-parent" role="none">
+        <a href="/research" class="w3-button li-link li-link-main" role="menuitem">Research</a>
+                  <div class="div-expanded">
+                          <a href="javascript:void(0)" class="w3-button toggle-child" aria-haspopup="true">
+                <span class="fa fa-chevron-down"></span>
+              </a>
+                                                        <ul  class="ul-child ul-child-main" role="menu">
+                          <li class="li-item li-item-main li-expanded" role="none">
+        <a href="/research/projects" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="research/projects">Projects</a>
+                  <div class="div-expanded">
+                          <a href="javascript:void(0)" class="w3-button toggle-child" aria-haspopup="true">
+                <span class="fa fa-chevron-right"></span>
+              </a>
+                                                        <ul  class="ul-child ul-child-main" role="menu">
+                          <li class="li-item li-item-main" role="none">
+        <a href="/research/projects/benchmark-datasets-for-entity-resolution" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/11455">Benchmark datasets for entity resolution</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/projects/famer" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/11450">FAMER</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/projects/hygraph" title="HyGraph : a hybrid data model combining graph and time-series data" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/11761">HyGraph</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/projects/pprl" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/10949">Privacy-Preserving Record Linkage</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/projects/gradoop" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/18">GRADOOP</a>
+              </li>
+        </ul>
+  
+                      </div>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/publications" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="research/publications">Publications</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/labs" class="w3-button li-link li-link-main" role="menuitem">Prototypes</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/annual_reports" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="research/annual_reports">Annual reports</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/cooperations" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/15">Cooperations</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/graduations" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="research/graduations">Graduations</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/colloquia" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="research/colloquia">Colloquia</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/research/conferences" class="w3-button li-link li-link-main" role="menuitem">Conferences</a>
+              </li>
+        </ul>
+  
+                      </div>
+              </li>
+                      <li class="li-item li-item-main li-expanded li-parent" role="none">
+        <a href="/person" title="Information about current and former team members" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="person">Team</a>
+                  <div class="div-expanded">
+                          <a href="javascript:void(0)" class="w3-button toggle-child" aria-haspopup="true">
+                <span class="fa fa-chevron-down"></span>
+              </a>
+                                                        <ul  class="ul-child ul-child-main" role="menu">
+                          <li class="li-item li-item-main" role="none">
+        <a href="/person/rahm" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/9966">Erhard Rahm</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/person?field_person_type_value%5B0%5D=employee" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-query="{&quot;field_person_type_value&quot;:[&quot;employee&quot;]}" data-drupal-link-system-path="person">Member</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/person?field_person_type_value%5B0%5D=former_employee" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-query="{&quot;field_person_type_value&quot;:[&quot;former_employee&quot;]}" data-drupal-link-system-path="person">Former employees</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/person?field_person_type_value%5B0%5D=associated_member" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-query="{&quot;field_person_type_value&quot;:[&quot;associated_member&quot;]}" data-drupal-link-system-path="person">Associated members</a>
+              </li>
+                      <li class="li-item li-item-main" role="none">
+        <a href="/person/galleries" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="person/galleries">Gallery</a>
+              </li>
+        </ul>
+  
+                      </div>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+
+    </div>
+  </div>
+  <!-- End: Main Navigation - Horizontal -->
+  
+  
+    <!-- Start: Highlighted -->
+  <div id="highlighted" class="w3-col w3-clear w3-theme-l2 ">
+    <div id="highlighted-inner" class="w3-row highlighted-inner none">
+      
+
+
+    </div>
+  </div>
+  <!-- End: Highlighted -->
+  
+  
+      <!-- Start: Page Title -->
+  <div id="page-title" class="w3-col w3-clear w3-theme-d5 none ">
+    <div id="page-title-inner" class="w3-row page-title-inner none">
+      
+
+<section id="block-dbs-page-title" class="w3-block w3-block-wrapper block-core block-page-title-block">
+  
+    
+      
+  <h1 class="page-title">
+<span>Not found</span>
+</h1>
+
+
+  </section>
+
+
+    </div>
+  </div>
+  <!-- End: Page Title -- >
+  
+  <!-- Start: Main -->
+  <div id="main-container" class="w3-col w3-clear w3-theme-l5 ">
+    <div id="main-container-inner" class="w3-row main-container-inner none">
+            <!-- Breadcrumb -->
+      <div class="w3-row w3-breadcrumb ">
+        
+
+<section id="block-dbs-breadcrumbs" class="w3-block w3-block-wrapper block-system block-system-breadcrumb-block">
+  
+    
+        <nav class="w3-block w3-section breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ul class="w3-ul w3-small breadcrumb">
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  Not found
+              </li>
+        </ul>
+  </nav>
+
+  </section>
+
+
+      </div>
+      <!-- End: Breadcrumb -->
+            <!-- Start Main Container  -->
+      <div class="w3-col w3-clear w3-row-padding">
+                        <!-- Start: Main Content -->
+        <div class="w3-threequarter main-box main-region w3css-content" role="main">
+          <div class="w3-mobile  ">
+            
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+<section id="block-dbs-content" class="w3-block w3-block-wrapper block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="11368" class="w3-row node node--type-page node--view-mode-full">
+
+  
+  <div class="w3-row node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<section class="w3-block w3-block-wrapper block-layout-builder block-field-blocknodepagebody">
+  
+    
+      
+            <div class="w3-row field field--name-body field--type-text-with-summary field--label-hidden w3-bar-item field__item"><p>The requested page was not found.</p><p><em>Die angeforderte Seite wurde nicht gefunden.</em></p><p>Due to the renewal of the website, the content may have been moved, deleted or not yet migrated. It may still be temporarily available at the following url:</p><p><em>Im Zuge der Erneuerung der Website könnte der Inhalt verschoben, gelöscht oder noch nicht migriert worden sein. Ggf. ist er temporär noch unter folgender Url verfügbar:</em></p><p><a href="https://old.dbs.uni-leipzig.de">https://old.dbs.uni-leipzig.de</a></p></div>
+      
+  </section>
+
+<section class="w3-block w3-block-wrapper block-layout-builder block-extra-field-blocknodepagelinks">
+  
+    
+      
+  </section>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  </section>
+
+
+          </div>
+        </div>
+        <!-- End: Main Content -->
+                        <!-- Start: Right SideBar -->
+        <div class="w3-quarter main-box main-region second-sidebar" role="complementary">
+          <div class="w3-sidebar-second w3-mobile ">
+            
+
+  
+    
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="w3-row w3-search-block-form">
+  <div class="w3-section js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search w3-input w3-border w3-theme-border" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions w3-row element-container-wrapper js-form-wrapper form-wrapper" id="edit-actions"><input class="search-button-block button js-form-submit form-submit w3-button w3-border w3-theme-border w3-margin-top w3-margin-bottom" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="." />
+</div>
+
+</form>
+
+  
+<section class="views-element-container w3-block w3-block-wrapper block-views block-views-blocknew-publications-new-publications-block" id="block-views-block-new-publications-new-publications-block">
+  
+    
+      <div class="w3-row element-container-wrapper"><div class="w3-row view view-new-publications view-id-new_publications view-display-id-new_publications_block js-view-dom-id-c390a342e2ff3f1f8257b0b2c3bcd5fb16c8d60f2fbdd17ccbce21be2bd524f5">
+  
+    
+      <header class="view-header">
+      <h2><a href="/research/publications/">Recent publications</a> <a href="/research/publications/feed"><span class="fa fa-rss"></span></a></h2>
+    </header>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul   class="item-list w3-ul">
+
+          <li class="w3-panel"><div class="views-field views-field-field-publication-year-1"><div class="field-content readon">2025 / 9: <a href="/research/publications/generating-semantically-enriched-mobility-data-from-travel-diaries" hreflang="en">Generating Semantically Enriched Mobility Data from Travel Diaries</a></div></div></li>
+          <li class="w3-panel"><div class="views-field views-field-field-publication-year-1"><div class="field-content readon">2025 / 8: <a href="/research/publications/slice-it-up-unmasking-user-identities-in-smartwatch-health-data" hreflang="en">Slice it up: Unmasking User Identities in Smartwatch Health Data</a></div></div></li>
+          <li class="w3-panel"><div class="views-field views-field-field-publication-year-1"><div class="field-content readon">2025 / 7: <a href="/research/publications/mpgt-multimodal-physics-constrained-graph-transformer-learning-for-hybrid" hreflang="en">MPGT: Multimodal Physics-Constrained Graph Transformer Learning for Hybrid Digital Twins</a></div></div></li>
+          <li class="w3-panel"><div class="views-field views-field-field-publication-year-1"><div class="field-content readon">2025 / 6: <a href="/research/publications/leveraging-foundation-models-and-goal-dependent-annotations-for-automated" hreflang="en">Leveraging foundation models and goal-dependent annotations for automated cell confluence assessment</a></div></div></li>
+          <li class="w3-panel"><div class="views-field views-field-field-publication-year-1"><div class="field-content readon">2025 / 6: <a href="/research/publications/securematch-integrating-clerical-review-in-privacy-preserving-record-linkage" hreflang="en">SecUREmatch: Integrating Clerical Review in Privacy-Preserving Record Linkage</a></div></div></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+          </div>
+        </div>
+        <!-- End: Right SideBar -->
+              </div>
+      <!-- Endn: Main Container  -->
+    </div>
+  </div>
+  <!-- End: Main -->
+
+  
+  
+    <!-- Start: Footer Menu -->
+  <div id="footer-menu" class="w3-col w3-clear w3-theme-d5 ">
+    <div id="footer-menu-inner" class="w3-row footer-menu-inner none">
+            <!-- Start: Bottom Menu -->
+            <div class="w3-container w3-center w3-mobile">
+        
+<nav role="navigation" aria-labelledby="block-dbs-footer-menu" id="block-dbs-footer">
+            
+  <h2 class="visually-hidden" id="block-dbs-footer-menu">Footer menu</h2>
+  
+
+                          <ul  class="ul-parent ul-parent-footer" role="menu">
+                          <li class="li-item li-item-footer" role="none">
+        <a href="/directions" class="w3-button li-link li-link-footer" role="menuitem">Directions</a>
+              </li>
+                      <li class="li-item li-item-footer" role="none">
+        <a href="/contact" class="w3-button li-link li-link-footer" role="menuitem" data-drupal-link-system-path="contact">Contact</a>
+              </li>
+                      <li class="li-item li-item-footer" role="none">
+        <a href="https://www.mathcs.uni-leipzig.de/impressum" class="w3-button li-link li-link-footer" role="menuitem">Impressum</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+
+      </div>
+      <!-- End: Bottom Menu -->
+          </div>
+  </div>
+  <!-- End: Footer Menu -->
+  
+  </div>
+<!-- End: Page Wrapper -->
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyFUM0OgyAMfiGQgzv4NgahuiZAjS0y9_QjctjFuUuT7ydfv9ZPbKyzHiI6Sqx8xUugyQbtKK6UIEljS68ds5YnRNA5oQ6A6xsX5be82jCMpa_6eOrGDyfSywyvPwZM94ZWhuUImK6XzZRE2wJMtdlD_whs_W-ki9OCPSjL6JEd7bAdpv7DUVAsVpAFHZuW130ZxQcLRDNZBrUjFDbn7CL5HOADMziL-w","theme":"dbs","theme_token":null},"ajaxTrustedUrl":{"\/search\/node":true},"statistics":{"data":{"nid":"11368"},"url":"\/core\/modules\/statistics\/statistics.php"},"user":{"uid":0,"permissionsHash":"455fe2e91afbb1d38e66e47e18356791c5b7d005a2aea148e7188f459b19685f"}}</script>
+<script src="/files/js/js_TFGZ2n-llsE0mI7FVe4F6rUXPACz3ek-_3MS0sNttns.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=dbs&amp;include=eJxLSSrWT8_JT0rM0U3Ozy3Iz0vNKynWSSkqLUjMsYgvN04uLo4vyUjNTdVPsQDzdKGqi0sqczLz0nWKSxJLMotLMpOL9SG69BAiAJHKJDc"></script>
+
+  </body>
+</html>
